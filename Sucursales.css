@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    background: linear-gradient(135deg, #ffffff, #fcdc8c);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #292929;
+}
+
+.titulonovedades {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 20px;
+    padding-left: 250px;
+    padding-top: 50px;
+    text-align: left;
+    
+}
+
+.mapa {
+    text-align: right;
+    padding-right: 250px;
+}
+
+.texto {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 25px;
+}
+
+.nombre {
+    text-align: right;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    font-style: italic;
+}
+

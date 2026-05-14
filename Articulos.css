@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    background: linear-gradient(135deg, #ffffff, #fcdc8c);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #292929;
+}
+
+.titulonovedades {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.container5 {
+    width: 100%;
+    display: inline-flex;
+    max-width: 1100px;
+}
+
+.card2 {
+    width: 100%;
+    height: 400px;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card2:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.card2 img {
+    width: 100%;
+    height: 210px;
+}
+
+.card2 .contenido5 {
+    padding: 15px;
+    text-align: center;
+}
+
+.card2 .contenido5 p {
+    line-height: 1.5;
+    color: #6a6a6a;
+}
+
+.card2 .contenido5 h3 {
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.card2 .contenido5 a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #e0cb0f;
+    border: 1px solid #e0cb0f;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+
+.card2 .contenido5 a:hover {
+    background: #2fb4cc;
+    color: #fff;
+}
+
+.nombre {
+    text-align: right;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    font-style: italic;
+}
